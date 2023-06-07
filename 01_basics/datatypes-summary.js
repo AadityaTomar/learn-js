@@ -57,3 +57,30 @@ console.log(typeof outsideTemp);
 console.log(typeof myfunction);
 console.log(typeof heros);
 console.log(typeof Symbol);
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap (Non - Primitive)
+
+let myYoutubename = "adityatomardotcom"
+
+let anothername = myYoutubename
+ anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@googole.com",
+    upi: "user@ybl"
+}
+
+let userTwo  = userOne
+
+userTwo.email = "aditya@google.com"
+ 
+console.log(userOne.email);
+console.log(userTwo.email);
