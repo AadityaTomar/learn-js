@@ -50,11 +50,45 @@ const users = [
     },
 ]
 
-users[1].email
-console.log(tinderUser);
+// users[1].email
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedI'))
+// console.log(tinderUser.hasOwnProperty('isLoggedI'))
+
+const course = {
+    coursename: "js in hindi",
+    price : "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor 
+
+const {courseInstructor: insta} = course
+
+// console.log(courseInstructor);
+console.log(insta)
+
+
+
+// react method 
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "Aditay")
+
+{
+    "name" : "Aaditya",
+    "courseName": "js in hindi",
+    "price": "free",
+}
+
+[
+    {},
+    {},
+    {},
+]
